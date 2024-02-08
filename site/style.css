@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgb(29, 29, 36);
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: rgb(19, 20, 26);
+    height: 400px;
+    width: 500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.315);
+}
+
+.infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60%;
+    width: 100%;
+    padding: 30px 50px 10px 50px;
+}
+
+.infos-climate{
+    display: flex;
+    align-items: center;
+}
+
+.climate-desc{
+    margin-left: 15px;
+}
+
+.search-box input{
+    background-color: rgb(0, 0, 0, 0);
+    text-decoration: none;
+    border: none;
+    height: 100%;
+    width: 80%;
+    color: white;
+    margin-left: 10px;
+}
+
+.search-box button{
+    background-color: rgb(0, 0, 0, 0);
+    border: none;
+    color: white;
+    margin-right: 15px;
+    transition: 0.5s;
+}
+
+.search-box{
+    background-color: rgb(38, 41, 53);
+    width: 250px;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search-box button:hover{
+    cursor: pointer;
+    color: rgb(151, 171, 211);
+}
+
+h3{
+    color: white;
+    font-size:25px;
+}
+
+p{
+    color: white;
+    font-size: 17px;
+}
+
+.climate-desc{
+    text-transform: capitalize;
+}
